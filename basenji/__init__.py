@@ -6,7 +6,7 @@ from . import emerald
 from . import gene
 from . import genedata
 from . import genome
-from . import fgg
+from . import gff
 from . import layers
 from . import metrics
 from . import plots
