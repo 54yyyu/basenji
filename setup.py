@@ -33,7 +33,7 @@ setup(
     # tensorflow-cpu.
     install_requires=[
         l.strip() for l in
-        Path('requirements.txt').read_text('utf-8').splitlines()
+        Path('requirements.txt').read_text('utf-8').splitlines(),
     ],
     extras_require={
         "dev": [
