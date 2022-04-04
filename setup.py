@@ -34,7 +34,7 @@ setup(
     install_requires=[
         l.strip() for l in
         Path('requirements.txt').read_text('utf-8').splitlines()
-    ]
+    ],
     extras_require={
         "dev": [
             "black",  # styler
